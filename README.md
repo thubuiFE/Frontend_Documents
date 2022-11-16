@@ -41,6 +41,11 @@
 - Khi user truy cập vào page bằng `next/link` hoặc `next/router`, Nextjs sẽ gửi API request đến server và chạy `getServerSideProps`
 - Chỉ được export từ `pages`, phải được export như một funtion độc lập.
 
+> `getInitialProps`: tương tự như `getServerSideProps` và `componentDidMount` lấy dữ liệu sau mỗi lần request.
+
+- Là một async function
+- Chỉ được sử dụng ở `pages`
+
 ### CSR
 
 > `useSWR`

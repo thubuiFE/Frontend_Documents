@@ -14,7 +14,7 @@
 
     1.5 [Making the Swap file permanent](#making-the-swap-file-permanent)
 
-2.  [Pull source, build and load image](#pullsource,buildandloadimage)
+[2. Pull source, build and load image](#pullsource,buildandloadimage)
 
     2.1 [Pull source](#pull-source)
 

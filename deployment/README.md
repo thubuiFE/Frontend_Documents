@@ -1,57 +1,5 @@
 # Deployment
 
-## Table of Contents
-
-1.  [Add Swap Space on Ubuntu](#add-swap-space-on-ubuntu)
-
-    1.1 [Checking the system for Swap information](#checking-the-system-for-swap-information)
-
-    1.2 [Checking available space on the Hard Drive Partition](#checking-available-space-on-the-hard-drive-partition)
-
-    1.3 [Creating a Swap file](#creating-a-swap-file)
-
-    1.4 [Enabling the Swap File](#enabling-the-swap-file)
-
-    1.5 [Making the Swap file permanent](#making-the-swap-file-permanent)
-
-2. [Pull source, build and load image](#2.-pull-source,-build-and-load-image)
-
-    2.1 [Pull source](#pull-source)
-
-    2.2 [Build and load image](#build-and-load-image)
-
-3.  [Setup Nginx](#setupnginx)
-
-    3.1 [Install Nginx](#install-nginx)
-
-    3.2 [Adjusting the firewall](#adjusting-the-firewall)
-
-    3.3 [Checking web server](#checking-web-server)
-
-    3.4 [Managing the Nginx Process](#managing-the-nginx-process)
-
-    3.5 [Setting up server blocks](#setting-up-server-blocks)
-
-    3.6 [Nginx Files and Directories](#nginx-files-and-directories)
-
-4.  [Setup Password Authentication](#setuppasswordauthentication)
-
-    4.1 [Create the password file using Apache Utilities](#create-the-password-file-using-apache-utilities)
-
-    4.2 [Configure Nginx Password Authentication](#configure-nginx-password-authentication)
-
-5.  [Secure Nginx with Let's Encrypt](#secure-nginx-with-let's-encrypt)
-
-    5.1 [Secure Nginx with Let's Encrypt](#secure-nginx-with-let's-encrypt)
-
-    5.2 [Allowing HTTPS Through the Firewall](#allowing-https-through-the-firewall)
-
-    5.3 [Obtaining an SSL Certificate](#obtaining-an-ssl-certificate)
-
-    5.4 [Verifying Certbot Auto Renewal](#verifying-certbot-auto-renewal)
-
-6.  [References](#references)
-
 ## 1. Add Swap Space on Ubuntu
 
 <details>
